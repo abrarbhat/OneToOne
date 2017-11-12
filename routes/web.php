@@ -70,3 +70,11 @@ Route::get('/delete',function(){
     $usr->address()->delete();
     return "done";
 });
+
+Route::get('/hello',function (){
+
+
+    echo "hello";
+
+
+});
